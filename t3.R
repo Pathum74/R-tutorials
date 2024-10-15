@@ -1,15 +1,18 @@
 #Tutorial 3
 
 #Basic Vector Creation and Manipulation
-#1
+#1 Create a numeric vector with the values 5, 10, 15, and 20. How would you find the length of this 
+vector?
 numeric<-c(5,10,15,20)
 print(length(numeric))
 
-#2
+#2 Write a code snippet to create a character vector containing the days of the week ("Monday", 
+#  "Tuesday", etc.). How would you access the third element in this vector? 
 days<-c("Monday","Tuesday","Wednesday","Thursday","Firday","Saturday","Sunday")
 days[3]
 
-#3
+#3 Create a logical vector using the values TRUE, FALSE, and TRUE. Write a code to change the 
+#  second element to TRUE.
 logical<-c(TRUE,FALSE,TRUE)
 logical[2]=TRUE
 logical
